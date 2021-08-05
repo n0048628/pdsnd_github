@@ -14,6 +14,7 @@ def get_filters():
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
+    improving get_filters documentation
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). 
@@ -64,6 +65,8 @@ def load_data(city, month, day):
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
+        improving load_data documentation
+
     """
         
 # load data file into a dataframe
@@ -166,7 +169,7 @@ def trip_duration_stats(df):
 
 
 def user_stats(df,city):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users.Improving user_stats documentation"""
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
