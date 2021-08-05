@@ -65,6 +65,8 @@ def load_data(city, month, day):
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
+        improving load_data documentation
+
     """
         
 # load data file into a dataframe
